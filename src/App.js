@@ -1,6 +1,6 @@
-import RockPaperScissorGame from './components/RockPaperScissorGame'
 import './App.css'
+import Home from './components/Home'
 
-const App = () => <RockPaperScissorGame />
+const App = () => <Home />
 
 export default App
