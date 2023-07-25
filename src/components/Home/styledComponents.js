@@ -24,7 +24,7 @@ export const PopUpView = styled.div`
   justify-content: space-between;
   padding: 10px;
   @media screen and (max-width: 576px) {
-    height: 260px;
+    height: 380px;
     width: 100%;
   }
 `
@@ -32,4 +32,14 @@ export const PopUpImage = styled.img`
   width: 100%;
   height: 90%;
   margin-top: auto;
+`
+
+export const PopUpContainer = styled.div`
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  @media screen and (max-width: 576px) {
+    width: 380px;
+    text-align: center;
+  }
 `

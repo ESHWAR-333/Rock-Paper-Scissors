@@ -5,7 +5,7 @@ export const GameViewContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 530px;
   flex-wrap: wrap;
   margin-top: 60px;
   @media screen and (max-width: 576px) {
@@ -15,8 +15,7 @@ export const GameViewContainer = styled.div`
   }
 `
 export const GameButton = styled.button`
-  width: 150px;
-  height: 150px;
+  width: 180px;
   background-color: transparent;
   border-style: none;
   outline: none;
@@ -28,8 +27,8 @@ export const GameButton = styled.button`
   }
 `
 export const GameImage = styled.img`
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  margin: 5px;
   @media screen and (max-width: 576px) {
     width: 100px;
     height: 100px;

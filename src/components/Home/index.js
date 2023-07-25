@@ -15,6 +15,7 @@ import {
   RulesView,
   PopUpView,
   PopUpImage,
+  PopUpContainer,
 } from './styledComponents'
 
 const choicesList = [
@@ -120,19 +121,21 @@ class Home extends Component {
             }
           >
             {close => (
-              <PopUpView>
-                <button
-                  type="button"
-                  className="trigger-button-close"
-                  onClick={() => close()}
-                >
-                  <RiCloseLine />
-                </button>
-                <PopUpImage
-                  src="https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png"
-                  alt="rules"
-                />
-              </PopUpView>
+              <PopUpContainer>
+                <PopUpView>
+                  <button
+                    type="button"
+                    className="trigger-button-close"
+                    onClick={() => close()}
+                  >
+                    <RiCloseLine />
+                  </button>
+                  <PopUpImage
+                    src="https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png"
+                    alt="rules"
+                  />
+                </PopUpView>
+              </PopUpContainer>
             )}
           </Popup>
         </RulesView>
